@@ -3,8 +3,8 @@ package com.quizapplication;
 import java.util.Scanner;
 
 public class Login implements UserOperation{
-	String stdusername="kk";
-	String stdpassword="123";
+	String stdusername;
+	String stdpassword;
 
 	@Override
 	public void userLogin() {
